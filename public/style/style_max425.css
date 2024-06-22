@@ -1,0 +1,408 @@
+@media screen and (max-width: 500px) {
+.first{
+height: 80vh;
+}
+.first img {
+    height: 80vh;
+}
+
+
+
+.first-texts {
+    h2 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #dde2e5;
+    }
+   
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: normal;
+            padding: 20px 35px;
+        }
+    p{
+        line-height: 1.5;
+        padding: 20px 35px;
+        text-align: center;
+    }
+    button {
+        border: 2px solid yellow;
+        padding: 20px 20px;
+        margin-top: 15px;
+        a{
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+/* //////////////////////////////////////////////////// */
+.second{
+height: fit-content;
+}
+.second .second-heading .second-texts{
+    padding: 0 40px;
+}
+.second #first-heading{
+    font-size: 1.6rem;
+}
+.second #first-para{
+    font-size: 1rem;
+    line-height: 25px;
+    padding: 0px 25px;
+}
+.second .cards{
+        display: flex;
+       flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        gap: 20px;
+    }
+
+.second .cards {
+    margin-top: 20px;
+    #f-img,
+    #s-img{
+        width: 40%;
+        height: 350px;
+
+    }
+
+    #t-img,
+    #fo-img{
+        display: none;
+    }
+}
+
+/* //////////////////////////////////////////// */
+ .third{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+ }
+
+ .third .left {
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 550;
+        padding-bottom: 30px;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+ .third .left,.right{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 40px;
+ }
+
+ .third .right ul li {
+    font-weight: bold;
+ }
+/* /////////////////////////////////////////////// */
+.fourth{
+    height: auto;
+    padding: 0px 40px;
+    flex-direction: column;
+}
+ .fourth .left-div {
+    margin-top: 0%;
+    margin-right: 0%;
+    width: 100%;
+    padding-left: 0px;
+}
+.fourth .left-div {
+    h1 {
+        font-size: 4rem;
+        line-height: 0.8;
+    }}
+
+    .fourth .right-div .upper-txt p {
+        font-size: 1.5rem;
+    }
+    .fourth .right-div .lower-txt {
+        flex-direction: column;
+    }
+/* ////////////////////////////////////////////////////// */
+.fifth .image{
+  
+    height: auto;
+    /* margin-bottom: 30%; */
+
+}
+.fifth img{
+    width: 100%;
+    height: fit-content;
+}
+
+/* /////////////////////////////////////////////////// */
+.sixth .upper-text .texts-fifth{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-text .texts-fifth .txt-left,.txt-right {
+    
+    p {
+        text-align: justify;
+        padding: 0px;
+        margin-top: 0;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 35px;
+        font-weight: 100;
+        
+    }
+}
+
+.upper-text .texts-fifth .txt-right{
+    max-width: 100%;
+    p{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+
+.heading {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+.heading {
+    margin-top: 80px;
+    #heading-para {
+        line-height: 2;
+        color: #00000078;
+        font-size: 1rem;
+        font-weight: 500;
+        line-break: auto;
+        padding: 18px 30px;
+    }
+}
+.heading #clr{
+    background-color: #d2ab78;
+    color: white;
+    padding: 8px ;
+}
+.cards{
+    margin: 0px 30px;
+    flex-direction: column;
+}
+.first-card,
+.m-card {
+    height: auto;
+    width: fit-content;
+    padding: 70px 12px;
+    margin-bottom: 20px;
+}
+.first-card,
+.m-card {
+    p{
+        padding: 0px 20px;
+    }
+}
+
+
+
+
+
+}
+
+
+
+
+
+/* /////////////////////////////////////// */
+
+@media screen and (min-width: 500px) and (max-width: 768px)  {
+    .second {
+    height: auto;
+    }
+.second .cards #s-img,
+#f-img{
+   width: 40%;
+}
+.second .cards #t-img,
+#fo-img{
+    display: none;
+}
+.third {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.third .right{
+    padding: 20px 0px;
+    margin-top: 50px;
+        line-height: 2;
+    
+}
+
+.third .left {
+    padding-bottom: 20px;
+    width: 80%;
+
+    h1{
+        font-size: 5rem;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    button{
+        
+            font-size: 2rem;
+       
+    }
+
+}
+.third .right ul li{
+    font-size: 1.8rem;
+}    
+
+
+.fourth {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    align-items: start;
+    justify-content: start;
+    /* margin-right: 500%; */
+flex-direction: column;
+}
+.fourth .left-div{
+    padding-left: 40px;
+    margin-bottom: 55px;
+}
+.fourth .right-div{
+    padding: 0 0 0 40px;
+}
+
+.fourth .right-div .upper-txt p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+   
+}
+hr {
+    height: 3px;
+    color: black;
+    background-color: black;
+    margin: 0px 40px;
+}
+
+.fourth .right-div .lower-txt {
+    margin-top: 50px;
+    font-size: 2rem;
+    flex-direction: column;
+}
+.fifth .image{
+    height: auto;
+}
+.fifth img {
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+.sixth .upper-text .texts-fifth {
+    flex-direction: column;
+}
+
+.sixth .txt-left p{
+    text-align: justify;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.sixth .txt-right {
+    padding: 20px;
+    max-width: 100%;
+    p{  
+        font-size: 2.8rem;
+        text-align: justify;
+    }
+}
+
+.sixth .heading{
+    margin-top: 100px;
+
+}  
+
+.sixth #six-heading{
+    font-size: 3rem;
+    #clr{
+        background-color: #d2ab78;
+        color: #ffff;
+        padding: 10px;
+    }
+}
+
+.sixth .heading #heading-para{
+    line-break: auto;
+        font-size: 1.8rem;
+        padding: 18px 70px;
+        font-weight: 500;
+}
+
+.cards .first-card,.m-card{
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 40px;
+    line-height: 2;
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        font-weight: 400;
+        padding: 40px;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+    span{
+        font-weight: bold;
+    }
+    button{
+        padding: 35px;
+    }
+    button a{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
